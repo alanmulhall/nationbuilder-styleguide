@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable nationbuilder-styleguide': 'nationbuilder-styleguide:toggle'
+
+'menu': [
+  {
+    'label': 'Nationbuilder'
+    'submenu': [
+      'label': 'styleguide'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'nationbuilder-styleguide:toggle' }
+      ]
+    ]
+  }
+]

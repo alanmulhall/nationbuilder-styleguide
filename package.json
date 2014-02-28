@@ -1,0 +1,15 @@
+{
+  "name": "nationbuilder-styleguide",
+  "main": "./lib/nationbuilder-styleguide",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A short description of your package",
+  "activationEvents": ["nationbuilder-styleguide:toggle"],
+  "repository": "https://github.com/atom/nationbuilder-styleguide",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
